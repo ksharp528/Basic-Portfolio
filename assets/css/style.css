@@ -1,0 +1,57 @@
+body {background-image: url("/Users/kylesharp/Desktop/Activities/Basic-Portfolio/assets/images/white-waves.png")}
+
+h1 {background-color:#4aaaa5; 
+    color:white; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:20px;
+   float: left;
+ position:absolute;
+   bottom: 0;
+height: 20px;
+display:inline-block}
+
+
+
+ div {background-color:  #ffffff;
+    border-bottom:5px solid #cccccc; 
+    padding: 20px;
+    margin-bottom: 20px; position: relative;
+    height:20px; overflow: hidden;
+ }
+
+
+.header::after{content: ""; display: block; clear: both;
+}
+
+.top {float: right;
+    padding: 20px;
+}
+
+#contact 
+
+footer {background-color: orange; 
+    padding: 20px;
+    clear:both;
+    text-align: center
+
+    
+    
+}
+
+h2{ padding:25px 10px;
+}
+
+section {background-color:yellowgreen; 
+    width:960px; 
+    margin:auto; 
+    border-color: #cccccc;
+    clear: both;
+
+    
+}
+
+img {float: left;}
+
+hr {width:940px }
+
+.section::after{content: ""; display: block; clear: both;}
